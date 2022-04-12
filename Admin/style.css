@@ -1,0 +1,640 @@
+.wrapper{
+     height:1800px;
+     width:1500x;
+     
+}
+header{
+    height:150px;
+    width: 1515px;
+    background-color:darkgray;
+}
+.navbar{
+   text-decoration: none;
+    list-style: none;
+}
+.navbar a{
+    text-decoration: none;
+}
+
+
+.logo{ 
+     float: left;
+    color: white;
+    padding-left: 34px;
+   
+}
+.logo img {
+	padding-top: 15px;
+	padding-left: 41px;
+}
+
+li a {
+   text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding-right:15px;
+   
+    
+}
+li a:hover {
+    color: gray;
+    font-size: 25px;
+    
+}
+/*nav{
+  float: right; 
+  padding-top:20px;
+}
+nav li {
+   padding-top:20px;
+   display:inline-block;
+}*/
+section{
+    height:1350px;
+    width: 1515px;
+    background-color:darkgray;
+    
+}
+.counter{
+    font-size:35px;
+    text-align: center;
+    margin: 1% auto;
+}
+.parallax {
+    height:500px;
+    width: 1515px;
+    background-image: url("img/Bookshelf.jpg");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.paracon {
+	font-size: 50px;
+	text-align: center;
+	opacity: 0.8;
+    padding-top: 35px;
+}
+.paracon:hover {
+	font-size: 50px;
+	text-align: center;
+	opacity: 1.8;
+    padding-top: 35px;
+}
+.slider{
+    background-color: rgba(27,31,34,0.85);
+    background-image: url("img/readmore.jpg");
+    width:1515px;
+    height: 650px;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+     background-size: cover;
+    position: absolute;
+    box-shadow: 1px 2px 10px black; 
+    animation: slider 15s infinite linear; 
+}
+@keyframes slider{
+    0%{background-image: url("img/quotes3.jpg");}
+    25%{background-image: url("img/quotes2.jpg");}
+    50%{background-image: url("img/quotes4.jpg");}
+    75%{background-image: url("img/quotes.jpg");}
+    100%{background-image: url("img/readmore.jpg");}
+}
+footer{
+    height:350px;
+    width: 1515px;
+    background-color:darkgray;
+}
+.footercontain{
+    padding-top:40px;
+    text-align: center;
+}
+
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*..................................user-login........................*/
+.loging h1 {
+	font-size: 43px;
+    text-align: center;
+    color: white;
+}
+.logbox input {
+	height: 37px;
+	width: 465px;
+	margin-left: 505px;
+	font-size: 20px;
+	border-radius: 20px;
+	text-align: center;
+}
+.logbox button {
+	height: 40px;
+	width: 330px;
+	margin-left: 573px;
+	font-size: 20px;
+	border-radius: 38px;
+	color: white;
+	background-color: black;
+}
+.logbox button:hover {
+	height: 45px;
+	width: 340px;
+	margin-left: 573px;
+	font-size: 20px;
+	border-radius: 38px;
+	color: black;
+	background-color: aquamarine;
+}
+.logbox{
+	margin-top: 50px;
+}
+.logbox a {
+	text-align: center;
+	padding-left: 507px;
+	font-size: 20px;
+	text-decoration: none;
+}
+.parallax1 {
+    height:450px;
+    width: 1515px;
+    background-image: url("img/Bookwall.jpeg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+} 
+.parallax2 {
+    height:550px;
+    width:1515px;
+    background-image: url("img/bookkock.jpg");
+    min-height:500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 1px;
+   
+} 
+.reging h1 {
+	font-size: 43px;
+    text-align: center;
+    color: white;
+}
+.regbox input {
+	height: 40px;
+	width: 465px;
+	margin-left: 514px;
+	font-size: 20px;
+	border-radius: 20px;
+	text-align: center;
+}
+.regbox button {
+	height: 40px;
+	width: 330px;
+	margin-left: 590px;
+	font-size: 20px;
+	border-radius: 38px;
+	color: white;
+	background-color: black;
+}
+.regbox button:hover {
+	height: 45px;
+	width: 340px;
+	margin-left: 590px;
+	font-size: 20px;
+	border-radius: 38px;
+	color: black;
+	background-color: aquamarine;
+}
+.regbox{
+	margin-top: 50px;
+}
+.regbox a {
+	text-align: center;
+	padding-left: 507px;
+	font-size: 20px;
+	text-decoration: none;
+}
+.parallax4 {
+    height:450px;
+    width: 1515px;
+    background-image: url("img/content.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+} 
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@contatact@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.contact{
+    background-color:black;
+}
+.contact header{
+    background-color:black;
+    
+}
+.contact section{
+   background-color:black; 
+}
+
+.mavbar{
+   text-decoration: none;
+    list-style: none;
+}
+.mavbar a{
+    text-decoration: none;
+}
+
+
+.logo{ 
+     float: left;
+    color: white;
+    padding-left: 34px;
+   
+}
+.logo img {
+	padding-top: 15px;
+	padding-left: 41px;
+}
+
+.mavbar li a {
+   text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding-right:15px;
+   
+    
+}
+.mavbar li a:hover {
+    color: #E6FB04;
+    font-size: 25px;
+    
+}
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@Feedback@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.parallax5 {
+    height:100%;
+    width: 1515px;
+    background-image: url("img/b&W.jpg");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.feedback {
+	height: 40px;
+	width: 330px;
+	
+	font-size: 20px;
+	border-radius: 38px;
+	color: white;
+	background-color: black;
+}
+.feedback:hover {
+	height: 45px;
+	width: 340px;
+	
+	font-size: 20px;
+	border-radius: 38px;
+	color: black;
+	background-color: aquamarine;
+}
+/* @@@@@@@@@@@@@book@@@@@@*/
+/* @@@@@@@@@@@@@book@@@@@@*/
+/* @@@@@@@@@@@@@book@@@@@@*/
+.parallax6 {
+    height:800px;
+    width: 1515px;
+    background-image: url("img/bachgrd.jpg");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.search-btn {
+	height:38px;
+	width:100px;
+	font-size: 20px;
+	border-radius: 10px;
+	color: white;
+	background-color:lightskyblue;
+}
+.search-btn:hover {
+	height:38px;
+	width:100px;
+	
+	font-size: 20px;
+	border-radius: 10px;
+	color: lightskyblue;
+	background-color: aquamarine;
+}
+.updatebox input {
+	height:45px;
+	width: 405px;
+	margin-left:400px;
+	font-size: 20px;
+	border-radius: 20px;
+	text-align: center;
+}
+.updatebox button {
+	height:40px;
+	width: 330px;
+	margin-left:30px;
+	font-size: 20px;
+	border-radius: 38px;
+	color: white;
+	background-color: black;
+}
+.updatebox button:hover {
+	height: 45px;
+	width: 340px;
+	margin-left:3sss0px;
+	font-size: 20px;
+	border-radius: 38px;
+	color: black;
+	background-color: aquamarine;
+}
+.updatebox{
+	margin-top: 50px;
+}
+.parallax7 {
+    height:800px;
+    width: 1515px;
+    background-image: url("img/bookpage.jpg");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@ADDDDDDDDbokkoookkk@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.addbook input {
+	height:40px;
+	width: 405px;
+	margin-left:271px;
+	font-size: 20px;
+	border-radius: 20px;
+	text-align: center;
+}
+.addbook button {
+	height:35px;
+	width: 230px;
+	margin-right:61px;
+	font-size: 20px;
+	border-radius: 38px;
+	color: white;
+	background-color: black;
+}
+.addbook button:hover {
+	height: 35px;
+	width: 230px;
+	margin-right:61px;
+	font-size: 20px;
+	border-radius: 38px;
+	color: black;
+	background-color:transparent;
+}
+.addbook{
+	margin-top: 20px;
+}
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@issuebook@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.parallax8 {
+    height:800px;
+    width: 1515px;
+    background-image: url("img/read (2).jpg");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.expired {
+	padding-top: 50px;
+	float: left;
+	padding-left: 40px;
+}
+
+.expired-btn{
+	height:38px;
+	width:100px;
+	font-size: 20px;
+	border-radius: 10px;
+	color: white;
+	background-color:red;
+}
+.expired-btn:hover{
+	height:38px;
+	width:100px;
+	
+	font-size: 20px;
+	border-radius: 10px;
+	color: black;
+	background-color: aquamarine;
+}
+.rtn-btn{
+	height:38px;
+	width:100px;
+	font-size: 20px;
+	border-radius: 10px;
+	color: white;
+	background-color:green;
+}
+.rtn-btn:hover{
+	height:38px;
+	width:100px;
+	
+	font-size: 20px;
+	border-radius: 10px;
+	color: black;
+	background-color: gray;
+}
+.send-btn {
+	height:48px;
+	width:150px;
+	font-size: 20px;
+	border-radius: 10px;
+	color: black;
+	
+	background-color:lightskyblue;
+}
+.send-btn:hover {
+	height:48px;
+	width:150px;
+	margin-top:-5px;
+	font-size: 20px;
+	border-radius: 10px;
+	color: lightskyblue;
+	background-color: forestgreen;
+}
+/*----------------------Admin Text-----------------*/
+/*----------------------admin text----------------*/
+       .leftbox {
+            height: 650px;
+            width: 350px;
+            float: left;
+            margin-left: 50px;
+            background-color: darkgrey;
+
+            opacity: 0.7;
+            margin-top: -20px;
+            border-radius: 8px;
+        }
+
+        .leftbox1 {
+            height: 630px;
+            width: 300px;
+            float: right;
+            background-color: lightgrey;
+
+            opacity: 0.7;
+            border-radius: 8px;
+        }
+
+        .send-btn2 {
+            height: 38px;
+            width: 80px;
+            font-size: 20px;
+            border-radius: 5px;
+            color: black;
+            margin-top: 8px;
+            background-color: darkgray;
+            opacity: 1;
+
+        }
+
+        .send-btn2:hover {
+            height: 38px;
+            width: 80px;
+            border-radius: 8px;
+            font-size: 20px;
+
+            color: blue;
+            background-color: forestgreen;
+            opacity: 1;
+        }
+
+        .textbar2 {
+            height: 38px;
+            width: 200px;
+            background-color: black;
+            color: white;
+            border-radius: 8px;
+        }
+
+        .list {
+            height: 600px;
+            width: 300px;
+            float: right;
+
+            overflow-y: scroll;
+            overflow-x: hidden;
+            border-radius: 8px;
+            font-size: 20px;
+            color: black;
+        }
+
+        .rightbox {
+            height: 650px;
+            width: 902px;
+            margin-top: -20px;
+            margin-left: 439px;
+            background-color: darkgray;
+            opacity: 0.7;
+            border-radius: 8px;
+        }
+
+        .rightbox1 {
+            height: 630px;
+            width: 873px;
+            float: right;
+            background-color: lightgrey;
+            margin-top: -20px;
+            opacity: 0.7;
+            border-radius: 8px;
+            color: black;
+        }
+
+        .rightbox2 {
+            height: 70px;
+            width: 100%;
+            text-align: center;
+            color: black;
+
+        }
+
+        .text1 {
+            margin-top: 5px;
+            margin-left: 5px;
+        }
+
+        .textbar {
+            height: 60px;
+            width: 650px;
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+
+        }
+
+        tr:hover {
+            background-color: black;
+            color: white;
+            cursor: pointer;
+        }
+
+        .msg {
+            height: 450px;
+            width: 500px;
+            overflow-y: scroll;
+            background-color: lightgray;
+            margin-left: 150px;
+        }
+
+        .user .textbox {
+            height: 60px;
+            width: 400px;
+            background-color: black;
+            padding: 13px 25px;
+            color: white;
+            border-radius: 20px;
+
+            margin-left: 25px;
+            margin-top: 5px;
+
+
+        }
+
+        .admin .textbox {
+            height: 60px;
+            width: 400px;
+            order: -1;
+            background-color: lightskyblue;
+            padding: 13px 10px;
+            margin-top: 10px;
+            color: black;
+            border-radius: 20px;
+
+
+
+        }
+

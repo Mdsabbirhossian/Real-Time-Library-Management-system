@@ -1,0 +1,10 @@
+
+.counter {
+    background-color: darkgray;
+    height:230px;
+    width: 100%
+     margin: 2% auto;
+	font-size: 35px;
+	text-align: center;
+    padding-top:10px;
+}
